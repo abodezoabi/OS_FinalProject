@@ -15,6 +15,7 @@ src/ ├── Model/ │ ├── Graph.cpp / Graph.hpp │ ├── MSTFacto
 markdown
 Copy code
 
+
 ## Usage
 
 ### Requirements
@@ -26,13 +27,21 @@ Copy code
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+
+
+### Requirements
+- C++17 or later
+- `g++` with `-pthread` support
+
+### Build Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
 Build the project:
-bash
-Copy code
+
 make
 Run the server:
-bash
-Copy code
 ./server
 Example Commands
 create <number_of_vertices>: Create a graph with specified vertices.
